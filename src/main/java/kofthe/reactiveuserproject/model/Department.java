@@ -8,12 +8,10 @@ import org.springframework.data.relational.core.mapping.Table;
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
-@Table(name = "users")
-public class User {
-
+@Table(name = "department")
+public class Department {
     private int id;
     private String name;
-    private int age;
-    private double salary;
-
+    private int userId;
+    private String loc;
 }
